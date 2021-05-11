@@ -17,16 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>标签: Vue数据相关实例方法 | Mandy&#39;s Blog</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="Mandy&#39;s Blog">
-<meta property="og:url" content="https://mandylucky.github.io/tags/Vue%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95/index.html">
+  <title>算法总结 | Mandy&#39;s Blog</title>
+  <meta name="description" content="数据结构决定了，数据存储的空间和时间效率问题，算法会提高数据的处理效率  前端常见的数据结构简单数据结构1.有序数据结构：栈、队列、链表 【有序数据结构省空间，存储空间小】2.无序数据结构：集合、字典、散列表【无序数据结构省时间，读取快】 复杂数据结构 树、堆、图 常见算法 递归 排序 枚举  递归、循环 二叉树：前&#x2F;中&#x2F;后 序遍历、深度&#x2F;广度遍历（队列）实现方式：递归、循环  查找、排序查找：">
+<meta property="og:type" content="article">
+<meta property="og:title" content="算法总结">
+<meta property="og:url" content="https://mandylucky.github.io/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/index.html">
 <meta property="og:site_name" content="Mandy&#39;s Blog">
+<meta property="og:description" content="数据结构决定了，数据存储的空间和时间效率问题，算法会提高数据的处理效率  前端常见的数据结构简单数据结构1.有序数据结构：栈、队列、链表 【有序数据结构省空间，存储空间小】2.无序数据结构：集合、字典、散列表【无序数据结构省时间，读取快】 复杂数据结构 树、堆、图 常见算法 递归 排序 枚举  递归、循环 二叉树：前&#x2F;中&#x2F;后 序遍历、深度&#x2F;广度遍历（队列）实现方式：递归、循环  查找、排序查找：">
 <meta property="og:locale" content="zh_CN">
+<meta property="article:published_time" content="2021-05-10T03:49:01.000Z">
+<meta property="article:modified_time" content="2021-05-10T05:36:25.188Z">
 <meta property="article:author" content="Mandy">
+<meta property="article:tag" content="算法总结">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://mandylucky.github.io/tags/Vue%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95/index.html">
+  <link rel="canonical" href="https://mandylucky.github.io/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Mandy&#39;s Blog" type="application/atom+xml">
   
@@ -283,78 +288,152 @@
 </aside>
 
   
-  <main class="main" role="main">
-  <article class="content article article-tags post-type-list" itemscope="">
-    <header class="article-header">
-      <h1 itemprop="name" class="hidden-xs">标签: Vue数据相关实例方法</h1>
-      <p class="text-muted hidden-xs">共 1 篇文章</p>
-      <nav role="navigation" id="nav-main" class="okayNav">
-        <ul>
-          <li><a href="/tags">All</a></li>
-          
-          <li><a href="/tags/你不知道的js读书笔记/">你不知道的js读书笔记</a></li>
-          
-          <li><a href="/tags/作用域和闭包/">作用域和闭包</a></li>
-          
-          <li><a href="/tags/Vue实例方法/">Vue实例方法</a></li>
-          
-          <li><a href="/tags/Vue事件相关实例方法/">Vue事件相关实例方法</a></li>
-          
-          <li><a href="/tags/Vue深入浅出读书笔记/">Vue深入浅出读书笔记</a></li>
-          
-          <li><a href="/tags/Vue生命相关实例方法/">Vue生命相关实例方法</a></li>
-          
-          <li><a href="/tags/nextTick原理/">nextTick原理</a></li>
-          
-          <li><a href="/tags/Vue数据相关实例方法/">Vue数据相关实例方法</a></li>
-          
-          <li><a href="/tags/时间空间复杂度/">时间空间复杂度</a></li>
-          
-          <li><a href="/tags/this/">this</a></li>
-          
-          <li><a href="/tags/算法总结/">算法总结</a></li>
-          
-          <li><a href="/tags/数据结构/">数据结构</a></li>
-          
-        </ul>
-      </nav>
-    </header>
-    <!-- /header -->
-    <div class="article-body">
-      <div class="row">
-        
-<div class="col-md-6">
+  
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#%E5%89%8D%E7%AB%AF%E5%B8%B8%E8%A7%81%E7%9A%84%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84"><span class="toc-number">1.</span> <span class="toc-text">前端常见的数据结构</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E9%80%92%E5%BD%92%E3%80%81%E5%BE%AA%E7%8E%AF"><span class="toc-number">2.</span> <span class="toc-text">递归、循环</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%E6%9F%A5%E6%89%BE%E3%80%81%E6%8E%92%E5%BA%8F"><span class="toc-number">3.</span> <span class="toc-text">查找、排序</span></a></li></ol>
+    </nav>
+  </div>
+</aside>
+
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-算法/算法总结" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
-<article class="panel panel-default hover-shadow hover-grow" itemscope itemtype="http://schema.org/BlogPosting">
-  <div class="panel-body">
-     <div class="article-meta">
-       <time datetime="2021-05-07T08:41:39.000Z" itemprop="datePublished">2021-05-07</time>
-     </div>
-     <h3 class="article-title" itemprop="name">
-       <a class="article-link" href="/2021/05/07/vue/stateMixin/">数据相关的实例方法</a>
-     </h3>
-   </div>
-   
-   <div class="panel-footer">
-     
-      <a href="/tags/Vue%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95/" class="label label-default mb">Vue实例方法</a>
-     
-      <a href="/tags/Vue%E6%B7%B1%E5%85%A5%E6%B5%85%E5%87%BA%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/" class="label label-default mb">Vue深入浅出读书笔记</a>
-     
-      <a href="/tags/Vue%E6%95%B0%E6%8D%AE%E7%9B%B8%E5%85%B3%E5%AE%9E%E4%BE%8B%E6%96%B9%E6%B3%95/" class="label label-default mb">Vue数据相关实例方法</a>
-     
-     
-   </div>
-   
-</article>
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      算法总结
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/" class="article-date">
+	  <time datetime="2021-05-10T03:49:01.000Z" itemprop="datePublished">2021-05-10</time>
+	</a>
+</span>
+        
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a>
+  </span>
+
+        
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/" rel="tag">算法总结</a>
+  </span>
 
 
-</div>
+        
 
+        <!-- <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/#comments" class="article-comment-link">评论</a></span> -->
+        
       </div>
     </div>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <blockquote>
+<p>数据结构决定了，数据存储的空间和时间效率问题，算法会提高数据的处理效率</p>
+</blockquote>
+<h4 id="前端常见的数据结构"><a href="#前端常见的数据结构" class="headerlink" title="前端常见的数据结构"></a>前端常见的数据结构</h4><p><strong>简单数据结构</strong><br>1.有序数据结构：栈、队列、链表 【有序数据结构省空间，存储空间小】<br>2.无序数据结构：集合、字典、散列表【无序数据结构省时间，读取快】</p>
+<p><strong>复杂数据结构</strong><br> 树、堆、图</p>
+<p><strong>常见算法</strong><br> 递归 排序 枚举</p>
+<hr>
+<h4 id="递归、循环"><a href="#递归、循环" class="headerlink" title="递归、循环"></a>递归、循环</h4><p> 二叉树：前/中/后 序遍历、深度/广度遍历（队列）<br>实现方式：递归、循环</p>
+<hr>
+<h4 id="查找、排序"><a href="#查找、排序" class="headerlink" title="查找、排序"></a>查找、排序</h4><p>查找：二分查找、哈希表查找、二叉排序树查找<br>排序：插入排序、冒泡排序、归并排序、快速排序</p>
+
+      
+    </div>
+    <div class="article-footer">
+      <!-- <blockquote class="mt-2x"> -->
+  <!-- <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="https://mandylucky.github.io/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/" title="算法总结" target="_blank" rel="external">https://mandylucky.github.io/2021/05/10/%E7%AE%97%E6%B3%95/%E7%AE%97%E6%B3%95%E6%80%BB%E7%BB%93/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul> -->
+<!-- </blockquote> -->
+
+
+<!-- <div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/mandylucky" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpeg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/mandylucky" target="_blank"><span class="text-dark">Mandy</span><small class="ml-1x"></small></a></h3>
+        <div>个人简介。</div>
+      </div>
+    </figure>
+  </div>
+</div> -->
+
+
+    </div>
   </article>
-   
+  
+    
+  <section id="comments">
+  	
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    <li class="prev">
+      <a href="/2021/05/10/%E7%AE%97%E6%B3%95/%E6%97%B6%E9%97%B4%E7%A9%BA%E9%97%B4%E5%A4%8D%E6%9D%82%E5%BA%A6/" title="时间空间复杂度"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+    </li>
+    
+    
+    <li class="next">
+      <a href="/2021/05/10/js/%E4%BD%9C%E7%94%A8%E5%9F%9F%E5%92%8C%E9%97%AD%E5%8C%85/" title="作用域和闭包"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
+  
+  
+  
+  <div class="bar-right">
+    
+  </div>
+  </div>
+</nav>
+  
+
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -408,6 +487,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+   
+
+
+
+
+   
 
 
 

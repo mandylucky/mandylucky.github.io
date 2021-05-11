@@ -17,18 +17,21 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>404 Not Found：该页无法显示 | Mandy&#39;s Blog</title>
-  <meta property="og:type" content="website">
-<meta property="og:title" content="404 Not Found：该页无法显示">
-<meta property="og:url" content="https://mandylucky.github.io/404.html">
+  <title>树 | Mandy&#39;s Blog</title>
+  <meta name="description" content="前端工作中常见的树：DOM树、级联选择、树形控件… js中没有树，但是可以使用Object 和 Array 构建树 树的常用操作：深度&#x2F;广度 优先遍历、前中后序遍历  深度优先遍历深度优先遍历，尽可能深的搜索树的分支  访问根节点 对根节点children 挨个进行深度优先遍历12345678910111213141516171819202122232425262728const tree&#x3D;&amp;#">
+<meta property="og:type" content="article">
+<meta property="og:title" content="树">
+<meta property="og:url" content="https://mandylucky.github.io/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/index.html">
 <meta property="og:site_name" content="Mandy&#39;s Blog">
+<meta property="og:description" content="前端工作中常见的树：DOM树、级联选择、树形控件… js中没有树，但是可以使用Object 和 Array 构建树 树的常用操作：深度&#x2F;广度 优先遍历、前中后序遍历  深度优先遍历深度优先遍历，尽可能深的搜索树的分支  访问根节点 对根节点children 挨个进行深度优先遍历12345678910111213141516171819202122232425262728const tree&#x3D;&amp;#">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2021-05-10T03:06:18.753Z">
-<meta property="article:modified_time" content="2021-05-10T03:06:18.753Z">
+<meta property="article:published_time" content="2021-05-11T05:20:01.000Z">
+<meta property="article:modified_time" content="2021-05-11T12:31:35.842Z">
 <meta property="article:author" content="Mandy">
+<meta property="article:tag" content="数据结构">
 <meta name="twitter:card" content="summary">
   <!-- Canonical links -->
-  <link rel="canonical" href="https://mandylucky.github.io/404.html">
+  <link rel="canonical" href="https://mandylucky.github.io/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/index.html">
   
     <link rel="alternate" href="/atom.xml" title="Mandy&#39;s Blog" type="application/atom+xml">
   
@@ -286,16 +289,25 @@
 
   
   
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E6%B7%B1%E5%BA%A6%E4%BC%98%E5%85%88%E9%81%8D%E5%8E%86"><span class="toc-number">1.</span> <span class="toc-text">深度优先遍历</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#%E5%B9%BF%E5%BA%A6%E4%BC%98%E5%85%88%E9%81%8D%E5%8E%86"><span class="toc-number">2.</span> <span class="toc-text">广度优先遍历</span></a></li></ol></li></ol></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91"><span class="toc-number"></span> <span class="toc-text">二叉树</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%85%88%E5%BA%8F%E9%81%8D%E5%8E%86%E7%AE%97%E6%B3%95%E5%8F%A3%E8%AF%80"><span class="toc-number">1.</span> <span class="toc-text">二叉树的先序遍历算法口诀</span></a></li></ol>
+    </nav>
+  </div>
+</aside>
+
 <main class="main" role="main">
   <div class="content">
-  <article id="page-" class="article article-type-page" itemscope itemtype="http://schema.org/BlogPosting">
+  <article id="post-算法/树" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
     
     <div class="article-header">
       
         
   
     <h1 class="article-title" itemprop="name">
-      404 Not Found：该页无法显示
+      树
     </h1>
   
 
@@ -303,23 +315,56 @@
       <div class="article-meta">
         <span class="article-date">
     <i class="icon icon-calendar-check"></i>
-	<a href="/404.html" class="article-date">
-	  <time datetime="2021-05-10T03:06:18.753Z" itemprop="datePublished">2021-05-10</time>
+	<a href="/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/" class="article-date">
+	  <time datetime="2021-05-11T05:20:01.000Z" itemprop="datePublished">2021-05-11</time>
 	</a>
 </span>
         
+  <span class="article-category">
+    <i class="icon icon-folder"></i>
+    <a class="article-category-link" href="/categories/%E7%AE%97%E6%B3%95/">算法</a>
+  </span>
+
         
+  <span class="article-tag">
+    <i class="icon icon-tags"></i>
+	<a class="article-tag-link-link" href="/tags/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84/" rel="tag">数据结构</a>
+  </span>
+
 
         
 
-        <!-- <span class="post-comment"><i class="icon icon-comment"></i> <a href="/404.html#comments" class="article-comment-link">评论</a></span> -->
+        <!-- <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/#comments" class="article-comment-link">评论</a></span> -->
         
       </div>
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <script type="text/javascript" src="//www.qq.com/404/search_children.js" charset="utf-8" homePageUrl="<%- config.url %>" homePageName="回到我的主页"></script>
+        <ul>
+<li><strong>前端工作中常见的树：DOM树、级联选择、树形控件…</strong></li>
+<li><strong>js中没有树，但是可以使用Object 和 Array 构建树</strong></li>
+<li><strong>树的常用操作：深度/广度 优先遍历、前中后序遍历</strong></li>
+</ul>
+<h3 id="深度优先遍历"><a href="#深度优先遍历" class="headerlink" title="深度优先遍历"></a>深度优先遍历</h3><p>深度优先遍历，尽可能深的搜索树的分支</p>
+<ol>
+<li>访问根节点</li>
+<li>对根节点children 挨个进行深度优先遍历<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> tree=&#123;</span><br><span class="line">    <span class="attr">val</span>:<span class="string">&#x27;a&#x27;</span>,</span><br><span class="line">    <span class="attr">children</span>:[&#123;</span><br><span class="line">        <span class="attr">val</span>:<span class="string">&#x27;b&#x27;</span>,</span><br><span class="line">        <span class="attr">children</span>:[&#123;</span><br><span class="line">            <span class="attr">val</span>:<span class="string">&#x27;d&#x27;</span>,</span><br><span class="line">            <span class="attr">children</span>:[]</span><br><span class="line">        &#125;,&#123;</span><br><span class="line">            <span class="attr">val</span>:<span class="string">&#x27;e&#x27;</span>,</span><br><span class="line">            <span class="attr">children</span>:[]</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;,</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="attr">val</span>:<span class="string">&#x27;c&#x27;</span>,</span><br><span class="line">        <span class="attr">children</span>:[&#123;</span><br><span class="line">            <span class="attr">val</span>:<span class="string">&#x27;f&#x27;</span>,</span><br><span class="line">            <span class="attr">children</span>:[]</span><br><span class="line">        &#125;,&#123;</span><br><span class="line">            <span class="attr">val</span>:<span class="string">&#x27;g&#x27;</span>,</span><br><span class="line">            <span class="attr">children</span>:[]</span><br><span class="line">        &#125;]</span><br><span class="line">    &#125;]</span><br><span class="line">&#125;</span><br><span class="line"><span class="comment">//dfs:deep first search</span></span><br><span class="line"><span class="keyword">const</span> dfs=<span class="function">(<span class="params">root</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(root.val)</span><br><span class="line">    root.children.forEach(dfs)</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li>
+</ol>
+<h3 id="广度优先遍历"><a href="#广度优先遍历" class="headerlink" title="广度优先遍历"></a>广度优先遍历</h3><p>广度优先遍历，先访问离根节点最近的节点</p>
+<ol>
+<li>新建一个队列，把根节点入队</li>
+<li>把队头出队，并访问</li>
+<li>把对头的children 挨个入队</li>
+<li>重复上面 2、3步骤知道队列为空</li>
+</ol>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// bfs: breadth first search</span></span><br><span class="line"><span class="keyword">const</span> bfs=<span class="function">(<span class="params">root</span>)=&gt;</span>&#123;</span><br><span class="line">    <span class="keyword">let</span> queue=[root];</span><br><span class="line">    <span class="keyword">while</span>(queue.length)&#123;</span><br><span class="line">        <span class="keyword">const</span> n=queue.shift();</span><br><span class="line">        <span class="built_in">console</span>.log(n.val);</span><br><span class="line">        n.children.forEach(<span class="function"><span class="params">child</span>=&gt;</span>&#123;</span><br><span class="line">            queue.push(child)</span><br><span class="line">        &#125;)</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">bfs(tree)</span><br></pre></td></tr></table></figure>
 
+<h1 id="二叉树"><a href="#二叉树" class="headerlink" title="二叉树"></a>二叉树</h1><ul>
+<li>树中每个节点最多只能有两个子节点</li>
+<li>在js中用Object 来模拟二叉树</li>
+</ul>
+<figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">const</span> tree=&#123;</span><br><span class="line">    <span class="attr">val</span>:<span class="number">1</span>,</span><br><span class="line">    <span class="attr">left</span>:&#123;</span><br><span class="line">        <span class="attr">val</span>:<span class="number">2</span>,</span><br><span class="line">        <span class="attr">left</span>:<span class="literal">null</span>,</span><br><span class="line">        <span class="attr">right</span>:<span class="literal">null</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="attr">right</span>:&#123;</span><br><span class="line">        <span class="attr">val</span>:<span class="number">3</span>,</span><br><span class="line">        <span class="attr">left</span>:<span class="literal">null</span>,</span><br><span class="line">        <span class="attr">right</span>:<span class="literal">null</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="二叉树的先序遍历算法口诀"><a href="#二叉树的先序遍历算法口诀" class="headerlink" title="二叉树的先序遍历算法口诀"></a>二叉树的先序遍历算法口诀</h3>
       
     </div>
     <div class="article-footer">
@@ -328,7 +373,7 @@
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="https://mandylucky.github.io/404.html" title="404 Not Found：该页无法显示" target="_blank" rel="external">https://mandylucky.github.io/404.html</a>
+      <a href="https://mandylucky.github.io/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/" title="树" target="_blank" rel="external">https://mandylucky.github.io/2021/05/11/%E7%AE%97%E6%B3%95/%E6%A0%91/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -359,12 +404,35 @@
   </article>
   
     
+  <section id="comments">
+  	
+  </section>
+
 
   
 </div>
 
   <nav class="bar bar-footer clearfix" data-stick-bottom>
   <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2021/05/11/js/this/" title="this"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
   
   
   
@@ -429,6 +497,12 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+   
+
+
+
+
+   
 
 
 
